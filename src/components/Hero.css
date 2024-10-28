@@ -1,0 +1,47 @@
+/* Base styles (applied by default) */
+.hero-container {
+    padding-left: 1rem; /* Equivalent to px-4 */
+    padding-right: 1rem; /* Equivalent to px-4 */
+  }
+  
+  .hero-title {
+    font-size: 2.25rem; /* Equivalent to text-4xl */
+  }
+  
+  /* Small screens and up (min-width: 640px) */
+  @media (min-width: 640px) {
+    .hero-container {
+      padding-left: 1.5rem; /* Equivalent to sm:px-6 */
+      padding-right: 1.5rem; /* Equivalent to sm:px-6 */
+    }
+  }
+  
+  /* Medium screens and up (min-width: 768px) */
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem; /* Equivalent to text-5xl */
+    }
+  }
+  
+  /* Large screens and up (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    .hero-container {
+      padding-left: 2rem; /* Equivalent to lg:px-8 */
+      padding-right: 2rem; /* Equivalent to lg:px-8 */
+    }
+  
+    .hero-title {
+      font-size: 3.75rem; /* Equivalent to text-6xl */
+    }
+  }
+  
+  /* Extra-large screens and up (min-width: 1280px) */
+  @media (min-width: 1280px) {
+    /* Add styles for extra-large screens if needed */
+  }
+  
+  /* 2x Extra-large screens and up (min-width: 1536px) */
+  @media (min-width: 1536px) {
+    /* Add styles for 2x extra-large screens if needed */
+  }
+  

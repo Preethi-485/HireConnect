@@ -1,0 +1,25 @@
+/* Card.css */
+
+/* Base styles for Card */
+.card-container {
+    padding: 1.5rem; /* Equivalent to p-6 */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-md */
+  }
+  
+  /* Default background color */
+  .card-bg-default {
+    background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+  }
+  
+  /* Responsive Styles */
+  /* Adjust styles for small screens (min-width: 640px) and medium screens (min-width: 768px) if needed */
+  
+  @media (min-width: 640px) {
+    /* Add styles for small screens if needed */
+  }
+  
+  @media (min-width: 768px) {
+    /* Add styles for medium screens if needed */
+  }
+  

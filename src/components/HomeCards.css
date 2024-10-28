@@ -1,0 +1,64 @@
+/* HomeCards.css */
+
+.homecards-section {
+    padding: 1rem; /* Equivalent to py-4 */
+  }
+  
+  .homecards-container {
+    max-width: 80rem; /* Equivalent to container-xl */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .homecards-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr; /* One column by default */
+    gap: 1rem; /* Gap between grid items */
+    padding: 1rem; /* Padding inside the grid */
+    border-radius: 0.5rem; /* Rounded corners */
+  }
+  
+  .homecards-title {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: 700; /* Equivalent to font-bold */
+  }
+  
+  .homecards-description {
+    margin-top: 0.5rem; /* Equivalent to mt-2 */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+  }
+  
+  .homecards-link {
+    display: inline-block; /* Inline block for the link */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 0.5rem 1rem; /* Padding inside the link */
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* White text color */
+  }
+  
+  .homecards-link-jobs {
+    background-color: #000000; /* Black background */
+  }
+  
+  .homecards-link-jobs:hover {
+    background-color: #4a4a4a; /* Dark gray background on hover */
+  }
+  
+  .homecards-link-add-job {
+    background-color: #4a4dff; /* Indigo background */
+  }
+  
+  .homecards-link-add-job:hover {
+    background-color: #3f3f7f; /* Darker indigo background on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .homecards-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens and up */
+    }
+  }
+  
+  .homecards-card-bg {
+    background-color: #e0e7ff; /* Light indigo background for the second card */
+  }
+  

@@ -1,0 +1,103 @@
+/* Navbar.css */
+
+/* Overall navbar styling */
+.navbar {
+    background-color: #4f46e5; /* bg-indigo-700 */
+    border-bottom: 2px solid #4338ca; /* border-indigo-500 */
+  }
+  
+  /* Container with responsive padding */
+  .navbar-container {
+    margin: 0 auto;
+    max-width: 80rem; /* max-w-7xl */
+    padding: 0 1rem; /* Default padding */
+  }
+  
+  /* Responsive padding adjustments */
+  @media (min-width: 640px) { /* sm breakpoint */
+    .navbar-container {
+      padding: 0 1.5rem; /* sm:px-6 */
+    }
+  }
+  
+  @media (min-width: 1024px) { /* lg breakpoint */
+    .navbar-container {
+      padding: 0 2rem; /* lg:px-8 */
+    }
+  }
+  
+  /* Flexbox container for nav content */
+  .nav-content {
+    display: flex;
+    align-items: center; /* items-center */
+    justify-content: space-between; /* justify-between */
+    height: 5rem; /* h-20 */
+  }
+  
+  /* Flexbox layout for the left side of the navbar */
+  .nav-left {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    flex: 1;
+  }
+  
+  /* Responsive adjustments for medium screens */
+  @media (min-width: 768px) { /* md breakpoint */
+    .nav-left {
+      align-items: stretch; /* md:items-stretch */
+      justify-content: flex-start; /* md:justify-start */
+    }
+  }
+  
+  /* Styling for navigation links */
+  .nav-link {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem; /* mr-4 */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem 0.75rem; /* px-3 py-2 */
+    border-radius: 0.375rem; /* rounded-md */
+    color: white; /* text-white */
+  }
+  
+  /* Styling for the logo image */
+  .logo {
+    height: 2.5rem; /* h-10 */
+    width: auto;
+  }
+  
+  /* Styling for logo text */
+  .logo-text {
+    display: none; /* Hidden by default */
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: bold; /* font-bold */
+    color: white; /* text-white */
+    margin-left: 0.5rem; /* ml-2 */
+  }
+  
+  /* Show logo text on medium screens and up */
+  @media (min-width: 768px) { /* md breakpoint */
+    .logo-text {
+      display: block;
+    }
+  }
+  
+  /* Styling for active navigation links */
+  .nav-link-active {
+    background-color: black; /* bg-black */
+    color: white; /* text-white */
+  }
+  
+  /* Styling for navigation links on hover */
+  .nav-link:hover {
+    background-color: #1f2937; /* hover:bg-gray-900 */
+    color: white; /* hover:text-white */
+  }
+  
+  /* Flexbox container for nav links */
+  .nav-link-space {
+    display: flex;
+    gap: 0.5rem; /* space-x-2 */
+  }
+  
